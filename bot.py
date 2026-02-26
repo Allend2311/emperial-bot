@@ -4,7 +4,7 @@ from flask import Flask, request
 import threading
 
 # ---------------- CONFIG ----------------
-GUILD_ID = 123456789012345678  # REPLACE WITH YOUR SERVER ID
+GUILD_ID = 1469038556092829923  # REPLACE WITH YOUR SERVER ID
 NOTIFY_ROLE_NAME = "Notify Me"
 
 intents = discord.Intents.default()
