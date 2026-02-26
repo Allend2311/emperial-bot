@@ -2,7 +2,8 @@ import discord
 from discord.ext import commands
 from flask import Flask
 import threading
-
+import os
+bot.run(os.getenv("DISCORD_TOKEN"))
 # Flask app for keep-alive
 app = Flask('')
 
