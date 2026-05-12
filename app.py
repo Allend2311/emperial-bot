@@ -4,7 +4,7 @@ from discord.ext import commands
 from discord import app_commands
 
 ALLOWED_CHANNELS = [
-    1469277900649005087
+    1469277900649005087,1488493910325071934
 ]
 
 IMAGE_FILE = "standard (1).gif"
