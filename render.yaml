@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: discord-announcement-bot
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python app.py"
+    healthCheckPath: /health
+
